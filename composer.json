@@ -1,0 +1,29 @@
+{
+    "name": "danilosong/SONBase",
+    "description": "Base para modulos no zf2 Danilo Song",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2",
+	"module",
+	"son"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "authors": [
+	{
+		"name": "Danilo Song",
+		"email": "danilosong@outlook.com"
+	}
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.4.11",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zendframework/zftool": "dev-master",
+        "hounddog/doctrine-data-fixture-module":"dev-master"
+    },
+   "autoload": {
+	"psr-0": {
+		"SONBase": "src/"
+}
